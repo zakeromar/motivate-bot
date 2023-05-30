@@ -1,18 +1,22 @@
 {
   "name": "telegram-bot-vercel-boilerplate",
   "version": "1.1.0",
-  "description": "Telegram Bot Vercel Boilerplate",
+  "description": "Telegram Bot for motivate Sanaz",
   "main": "src/index.ts",
-  "author": "Mark Pavlov (https://github.com/m7mark)",
+  "author": "Saeid Gohari",
   "homepage": "https://github.com/m7mark/telegram-bot-vercel-boilerplate",
   "dependencies": {
     "@vercel/node": "^2.10.3",
+    "axios": "^1.4.0",
     "dotenv-cli": "^7.2.1",
+    "node-cron": "^3.0.2",
+    "openai": "^3.2.1",
     "telegraf": "^4.12.2"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/node": "^18.15.11",
+    "@types/node-cron": "^3.0.7",
     "@vercel/ncc": "^0.36.1",
     "debug": "^4.3.4",
     "nodemon": "^2.0.22",
